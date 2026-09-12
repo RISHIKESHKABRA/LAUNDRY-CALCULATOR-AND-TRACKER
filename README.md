@@ -1,13 +1,20 @@
-# LAUNDRY-CALCULATOR-AND-TRACKER
+# Smart Laundry Tracker & Amount Calculator
 
-Here is a complete, runnable Python program for a command-line Laundry Tracker and Amount Calculator. It allows you to track items, set rates per item type, calculate total costs, and view a session summary.
+A CLI-based Python application designed to log laundry items, calculate dynamic totals based on configurable rate cards, and print structured receipts. Built according to VITyarthi evaluation guidelines.
 
-Features Built-In
+## Features
+* **Dynamic Rate Card:** Set and modify prices for standard items (Shirts, Pants, Bedsheets, etc.).
+* **Itemized Expense Tracker:** Add item counts with runtime input validation.
+* **Receipt Printing:** Automatic sub-total and total calculations output in a tabular view.
+* **Data Persistence:** Automatically syncs custom rates and transaction logs to standard JSON storage.
 
-Default Rate Card: Pre-populated with common items like shirts, pants, and bedsheets.
+## Technologies Used
+* **Language:** Python 3.8+
+* **Libraries:** `json`, `datetime`, `unittest` (Standard Library)
 
-Custom Rates & Items: Easily add new item types or adjust prices on the fly.
+## Installation & Setup
 
-Formatted Summary Table: Generates a clean text receipt displaying item counts, unit prices, and grand totals.
-
-Input Validation: Prevents program crashes from invalid numbers or string inputs.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/laundry-tracker-calculator.git](https://github.com/RISHIKESHKABRA/laundry-tracker-calculator.git)
+   cd laundry-tracker-calculator
