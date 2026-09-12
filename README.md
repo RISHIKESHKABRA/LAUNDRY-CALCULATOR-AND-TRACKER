@@ -18,3 +18,13 @@ A CLI-based Python application designed to log laundry items, calculate dynamic 
    ```bash
    git clone [https://github.com/your-username/laundry-tracker-calculator.git](https://github.com/RISHIKESHKABRA/laundry-tracker-calculator.git)
    cd laundry-tracker-calculator
+
+
+Verify Python Installation:
+
+Bash
+python --version
+Run the Application:
+
+Bash
+python main.py
